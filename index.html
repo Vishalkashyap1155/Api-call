@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="flex-container1">
+            
+            
+        <!-- ----------get api calll-------------- -->
+       
+        <div class="container-box">
+            <h3>User list Get API</h3>
+            <div id="status"></div>
+            <ul id="userlist">
+                
+            </ul>
+            <button id="btn">Get User list</button>
+
+        </div>
+        </div>
+
+        <div class="flex-container2">
+
+              <!-- -------------------------Delete API---------- -->
+
+        <div class="container-box">
+            <h3>User Delete "Delete API"</h3>
+            <div id="Deletestatus"></div>
+            <button id="deleteBtn" class="btn">Delete user</button>
+            <p id="statusofdelete" class="status"></p>
+        </div>
+
+
+        <!-- -----------------post api new user add------------------ -->
+
+         <div class="container-box">
+            <h3>Add new User post API</h3>
+           <form id="myform">
+            <div class="input-box">
+            <input type="text" id="name" placeholder="name" required>
+            <input type="email" id="email" placeholder="email" required>
+            <input type="number" id="age" placeholder="age" required>
+            <input type="password" id="password" placeholder="password" required>
+            </div>
+
+            <button class="btn" type="submit">Add User in list</button>
+           </form>
+           <p id="statusofpost"></p>
+            
+
+        </div>
+
+        <!-- -------------------put api calll ---------------------->
+
+         <div class="container-box">
+            <h3>User Data change by Put API</h3>
+           <form id="myformPut">
+            <div class="input-box">
+                <input type="number" id="userIdPut" placeholder="Enter User Id">
+            <input type="text" id="namePut" placeholder="name" required>
+            <input type="email" id="emailPut" placeholder="email" required>
+            <input type="number" id="agePut" placeholder="age" required>
+            <input type="password" id="passwordPut" placeholder="password" required>
+            </div>
+
+            <button class="btn" id="btnPut" type="submit">Update User</button>
+           </form>
+           <p id="statusofput" ></p>
+            
+
+        </div>
+
+
+        <!-- ----------------------------------patch update api call----------------------- -->
+        
+            <h3>User Data change by Patch API</h3>
+           <form id="myformPatch">
+            <div class="input-box">
+                <input type="number" id="userIdPatch" placeholder="Enter User Id" required>
+            <input type="text" id="namePatch" placeholder="name">
+            <input type="email" id="emailPatch" placeholder="email">
+            <input type="number" id="agePatch" placeholder="age" >
+            <input type="password" id="passwordPatch" placeholder="password">
+            </div>
+
+            <button class="btn" id="btnPatch" type="submit">Update User</button>
+           </form>
+           <p id="statusofpatch" ></p>
+            
+
+        </div> -->
+
+
+        </div>
+
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
